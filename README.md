@@ -1,17 +1,22 @@
 
 # Directory Tree Simulator
 
-A command-line program that simulates a hierarchical file system using Binary Search Trees (BSTs) for efficient organization and retrieval. This project demonstrates core data structures and algorithms by modeling a common real-world system: a directory tree.
+A command-line tool that mimics a file system, using Binary Search Trees to organize directories and files efficiently. It’s a hands-on way to explore data structures and algorithms through a real-world scenario.
 
 ## Features
 
-*   **BST-Based Organization:** Files and folders are stored and sorted within their parent directory using two separate Binary Search Trees:
-    *   **One BST for Files:** Sorted by file name.
-    *   **One BST for Subfolders:** Sorted by folder name.
-*   **Add Items:** Dynamically add new files or folders to any point in the directory tree.
-*   **Delete Items:** Remove files or folders. Deleting a folder also removes all of its contents recursively.
-*   **Efficient Searching:** Leverages the BST structure for fast lookups by name and type within any given directory.
-*   **Tree Traversal:** Display the entire directory structure using an in-order traversal, producing a sorted, visually intuitive tree view.
+BST-Based Organization: Files and folders are stored and sorted within their parent directory using two separate Binary Search Trees.
+
+One BST for Files: Sorted by file name.
+One BST for Subfolders: Sorted by folder name.
+
+Add Items: Dynamically add new files or folders to any point in the directory tree.
+
+Delete Items: Remove files or folders. Deleting a folder also removes all of its contents recursively.
+
+Efficient Searching: Leverages the BST structure for fast lookups by name and type within any given directory.
+
+Tree Traversal: Display the entire directory structure using an in-order traversal, producing a sorted, visually intuitive tree view.
 
 ## How It Works
 
